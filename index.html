@@ -3,46 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JTown Baseball</title>
+  <title>J-Town Baseball</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #0b2d18; /* Dark green background */
       color: white;
-      background: #1d3557 url('YOUR-LOGO.png') no-repeat center center fixed;
-      background-size: cover;
-    }
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       text-align: center;
-      flex-direction: column;
+    }
+    header {
+      padding: 40px;
+      background-color: #14532d; /* Secondary green */
     }
     h1 {
+      margin: 0;
       font-size: 3em;
-      margin-bottom: 20px;
+      color: #ffffff;
+    }
+    .logo {
+      margin-top: 30px;
+    }
+    img {
+      max-width: 300px;
     }
     a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #22c55e; /* Accent green */
+      color: #fff;
       text-decoration: none;
-      padding: 15px 30px;
-      background: #e63946;
-      color: white;
       font-weight: bold;
       border-radius: 8px;
-      transition: 0.3s;
+      transition: background 0.3s;
     }
     a:hover {
-      background: #d62828;
+      background-color: #16a34a;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <h1>Welcome to JTown Baseball</h1>
-    <a href="#">Enter JTown</a>
+  <header>
+    <h1>Welcome to J-Town Baseball</h1>
+  </header>
+
+  <div class="logo">
+    <img src="logo.png" alt="J-Town Baseball Logo">
   </div>
+
+  <a href="#">Enter Site</a>
 </body>
 </html>
